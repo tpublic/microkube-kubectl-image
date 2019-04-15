@@ -8,6 +8,7 @@ RUN echo "Downloading kubectl" && \
         ls -l && \
         chmod +x ./kubectl && \
         mv ./kubectl /usr/local/bin/kubectl && \
-        ls -l 
+        ls -l && \
+        ls -l /usr/local/bin/
 
 
